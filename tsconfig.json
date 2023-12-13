@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext" /* Specify what module code is generated. */,
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "outDir": "./dist" /* Specify an output folder for all emitted files. */,
+    "removeComments": true /* Disable emitting comments. */,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

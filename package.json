@@ -1,0 +1,25 @@
+{
+  "name": "amplenote-plugin-converter",
+  "version": "1.0.0",
+  "description": "A converter that used to convert a JS file into Amplenote plugin API object structure.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.ts"
+  },
+  "keywords": [
+    "amplenote",
+    "plugin",
+    "converter",
+    "nodejs"
+  ],
+  "author": "Mahmoud Fahiem",
+  "license": "MIT",
+  "dependencies": {
+    "acron": "^1.0.5",
+    "node-ts": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2"
+  }
+}
